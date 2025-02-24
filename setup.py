@@ -1,13 +1,14 @@
 from setuptools import setup, find_packages
 
 
-# tbd
 setup(
     name='pandas_agent',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
         'pandas',
+        'openai',
+        'ipython'
     ],
     author='Karim Dabbouz',
     author_email='hey+pandas@karim.ooo',

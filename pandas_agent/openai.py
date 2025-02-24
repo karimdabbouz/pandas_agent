@@ -1,5 +1,6 @@
 from .base import LLMConnector
-# imports
+from openai import OpenAI
+import re
 
 
 class OpenAIConnector(LLMConnector):
