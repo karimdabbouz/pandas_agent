@@ -1,0 +1,5 @@
+*.ipynb
+venv/
+pandas_agent.egg-info/
+__pycache__/
+.pytest_cache/
